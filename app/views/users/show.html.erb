@@ -1,3 +1,7 @@
+
+ <%= flash[:message] %>
+
+
 <h1>Hi, <%= @user.name %>!</h1>
 
 <%= form_tag( '/logout', method: 'delete') do %>
